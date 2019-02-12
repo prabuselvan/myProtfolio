@@ -1,0 +1,39 @@
+.topline{
+    margin-bottom: 40px;
+}
+
+.Experience_container{
+    margin-left: 530px;
+}
+
+.Experience_container  {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.Experience_container h1{
+    margin-bottom: 35px;
+    margin-left: 10px;
+}
+.ExpColumn{
+    float: left;
+    padding: 10px;
+    margin-top: 35px;
+ 
+}
+
+.leftExp {
+    width: 70%;
+}
+.righExp {
+    width: 30%;
+}
+.companyName {
+    color : #868e96;
+    margin-top: 5px;
+}
+.description{
+    line-height: 1.4;
+    color : #868e96;
+    margin-top: 15px;
+}

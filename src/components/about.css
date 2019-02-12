@@ -1,0 +1,85 @@
+.Column{
+    float: left;
+    padding: 10px;
+    height: 883px;
+}
+.left{
+    width: 30%;
+    border: 1px solid grey;
+    background-color: #bd5d38!important;
+    position: fixed;
+}
+
+.right {
+    width: 70%;
+    margin-left: 500px;
+ 
+}
+.mainContainer:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.headingcontents ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+.headingcontents{
+    text-align: center;
+    margin-top: 32px;
+}
+
+.headingcontents ul li a{
+   text-decoration: none;
+   cursor: pointer;
+   color: #868E9B;
+   font-weight: bold;
+   font-size: 22px;
+   letter-spacing: 1.2px;
+}
+.headingcontents ul li a:hover{
+    color: white;
+}
+.profileName{
+    font-size: 86px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+.mainContent{
+    margin-top: 120px;
+    /* padding-left: 30px; */
+}
+.lname{
+    color: #bd5d38!important;
+    font-weight: bold;
+}
+.details{
+    padding-left: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.synopsis{
+    margin-top: 40px;
+    font-size: 22px;
+    padding-left: 30px;
+    line-height: 1.4;
+}
+.socialicons{
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 26px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 18px;
+    width: 64px;
+    display: inline-block;
+}
+.fa-linkedin-square, .fa-github-square, .fa-twitter-square, .fa-facebook-square{
+    font-size: 26px;
+    border-radius: 5px;
+    color: #fff!important;
+}
+

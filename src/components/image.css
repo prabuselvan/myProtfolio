@@ -1,0 +1,12 @@
+.image-icon {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-color: crimson;
+    padding: 5px;
+    border-width: thick;
+}
+.imagediv{
+    text-align: center;
+    margin-top: 120px;
+}
