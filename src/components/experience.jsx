@@ -1,10 +1,10 @@
 import React from 'react';
 import './experience.css';
-const  Experience = (id)=> {
-
+const  Experience = (props)=> {
+// const Experience=+props.Experience
     return(
           
-        <div className='Experience_container' id={id} >
+        <div className='Experience_container' id={props.Experience} >
 
             <hr className='topline'/>
             <h1>EXPERIENCE</h1>
@@ -33,7 +33,7 @@ const  Experience = (id)=> {
             </div>
 
             <div className='righExp ExpColumn'>
-                 <h3> Sep 2017 - Present </h3>
+                 <h3> Apr 2016 - June 2017 </h3>
             </div>
 
             <div className='leftExp ExpColumn'>
@@ -47,7 +47,7 @@ const  Experience = (id)=> {
             </div>
 
             <div className='righExp ExpColumn'>
-                 <h3> Sep 2017 - Present </h3>
+                 <h3> Sep 2014 - Feb 2016 </h3>
             </div>
 
             <div className='leftExp ExpColumn'>
@@ -61,8 +61,11 @@ const  Experience = (id)=> {
             </div>
 
             <div className='righExp ExpColumn'>
-                 <h3> Sep 2017 - Present </h3>
+                 <h3> Oct 2013 - Oct 2014 </h3>
             </div>
+
+            {/* <hr/> */}
+            
         </div>
     )
 }

@@ -1,0 +1,38 @@
+
+.Education_container{
+    margin-left: 530px;
+    padding: 10px;
+    margin-top: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+}
+.EduColumn{
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.leftEdu{
+    width: 70%;
+
+}
+.rightEdu {
+    width: 30%;
+}
+.education{
+    margin-top: 300px;
+
+}
+.college ,.degree , .subject {
+    margin-top: 30px;
+}
+
+.Education_container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.education_hr{
+    margin-top: 350px;
+    margin-bottom: 100px;
+}

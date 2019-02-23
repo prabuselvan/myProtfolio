@@ -3,19 +3,23 @@ import Image from './image';
 import heading_icon from '../images/icon.png';
 import './about.css';
 const About = (props)=> {
-    
+    // console.log(props.id);
+    const about = '#'+props.About;
+    const experience = '#'+props.Experience;
+    const education = '#'+ props.Education;
+    const skills = '#'+props.Skills;
     return (
-       
-        <div className='mainContainer'>
+
+        <div className='mainContainer' id='About'>
         
                 <div className='left Column'>
                     <Image src={heading_icon} alt='mainimage'/>
                     <div className='headingcontents'>
                         <ul> 
-                            <li> <a href={props.id} >  ABOUT </a> </li>
-                            <li> <a href='£'>   EXPERIENCE  </a> </li>
-                            <li> <a href='£'>  EDUCATION </a>  </li>
-                            <li> <a href='£'>  SKILLS </a>  </li>
+                            <li> <a href={about}>  ABOUT </a> </li>
+                            <li> <a href={experience}> EXPERIENCE  </a> </li>
+                            <li> <a href= {education}>  EDUCATION </a>  </li>
+                            <li> <a href= {skills}>  SKILLS </a>  </li>
                             <li> <a href='£'>  INTERESTS </a>  </li>
                             <li> <a href='£'>  AWARDS </a>  </li>
                         </ul>
@@ -23,12 +27,13 @@ const About = (props)=> {
                 </div>
 
                 <div className='right Column'>
+                <p className='note'> This applcation can be viewed on 1680x1050 resolution</p>
                     <div className='mainContent'>
                             <h1 className='profileName'> <span className='fname'>PRABU </span> <span  className='lname'>ELAMURGUSELVAN</span> </h1>
                             <h3 className='details'>JAYANAGAR· BANGALORE,  560069 · (973) 8121-353 · MAILS2PRABUSELVAN15@GMAIL.COM
                             </h3>
 
-                            <p className='synopsis'> I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                            <p className='synopsis'>  I am a QA and i work on Automation projects like Selenium, QTP, Puppeteer with Jest. I got myself into learning web development and  I worked on building websites using HTML, CSS, JavaScript and React.js.
 
         </p>
 

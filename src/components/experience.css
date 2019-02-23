@@ -4,6 +4,9 @@
 
 .Experience_container{
     margin-left: 530px;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+    animation-delay: 2s;;
 }
 
 .Experience_container  {
@@ -36,4 +39,10 @@
     line-height: 1.4;
     color : #868e96;
     margin-top: 15px;
+}
+.Experience_container::after{
+    content: '';
+    clear: both;
+    display: table;
+
 }

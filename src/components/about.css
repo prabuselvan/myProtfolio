@@ -1,7 +1,7 @@
 .Column{
     float: left;
     padding: 10px;
-    height: 883px;
+    height: 980px;
 }
 .left{
     width: 30%;
@@ -66,6 +66,7 @@
     font-size: 22px;
     padding-left: 30px;
     line-height: 1.4;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .socialicons{
     background-color: black;
@@ -83,3 +84,9 @@
     color: #fff!important;
 }
 
+.note{
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
